@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>The Fisher Valley College Clothes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+            <span><a href="Front.html"> AVAIA </a> </span>
+        </div>
+        <div class="links">
+         <div class="link" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="400"> <a href="Front.html"> Home </a> </div>
+         <div class="link" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="600"> <a href="Store.html"> Store </a> </div>
+         <div class="link" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="800"> <a href="about.html"> About </a> </div>
+         <div class="link contact-btn"> <a href="contact.html" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="1200"> Contact Us </a> </div>
+        </div>
+        <i class="fa-solid fa-bars-staggered hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="Front.html"> Home </a>
+                <a href="Index1.html"> Store </a>
+               <a href="about.html"> About </a>
+                 <a href=""> Contact Us </a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section>
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="1300" data-aos-delay="1300">
+                    <a href="https://www.facebook.com/CCSTFVC" target="_blank"> <img src="Avalogo-removebg-preview.png"> </a>
+                </div>  
+                <div class="content"> 
+                    <h1 data-aos="fade-left" data-aos-duration="1300" data-aos-delay="1600" > Hey, This is the <br> <span>  AVAIA Boutique! </span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1300" data-aos-delay="1800">  We are <span> </span></div>
+                    <p data-aos="flip-up" data-aos-duration="1300" data-aos-delay="2000">Discover AVAIA, the ultimate clothing brand that will elevate your style to new heights, with pieces that are truly one of a kind</p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1300" data-aos-delay="2200"> 
+                        <a href="https://www.facebook.com/share/162iqdKSMR/" target="_blank"> <i class="fa-brands fa-facebook" style="color: rgb(255, 255, 255); background:rgb(1, 101, 225);" ></i> </a>
+                        <a href="https://www.tiktok.com/@avaia_x?_t=ZS-8vNoU4vN6Cf&_r=1" target="_blank"><i class="fa-brands fa-tiktok" style="background: black; color: white;"></i></a>
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Favai_aboutique%3Figsh%3DNXljcnNtODJoYTlu%26fbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWVQ3SzVvUEQ0NE51RFRaegEehnZhpptqySpYKBGCVuzwTXuFoJCg6bcu8nvnHSlwlcdxcWkvll4V623TPpc_aem_FkVHZv4SMlrdTbiwqPSTug&h=AT3RXNLAOyctpMtAVoeEsJbGhnMH3PgpTTDzQXgNSw6cKWgbH98x9jbHwjxlweyvL9_jUmroBLpit3b50YLedDd7H2bKoChFYuGfcEr8BfB-V2bODlXAYCdTPxJZuZYdJmLW9g" target="_blank"><i class="fa-brands fa-instagram" style="background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); color: white;"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+           function hamburg(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+           }
+           function cancel(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+           }
+        </script>
+</body>
+</html>

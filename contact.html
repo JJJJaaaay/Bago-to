@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>The Fisher Valley College Clothes</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+            <span><a href="Front.html"> AVAIA </a> </span>
+        </div>
+        <div class="links">
+         <div class="link" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="400"> <a href="Front.html"> Home </a> </div>
+         <div class="link" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="600"> <a href="Store.html"> Store </a> </div>
+         <div class="link" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="800"> <a href="about.html"> About </a> </div>
+         <div class="link contact-btn"> <a href="contact.html" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="1200"> Contact Us </a> </div>
+        </div>
+        <i class="fa-solid fa-bars-staggered hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="Front.html"> Home </a>
+                <a href="Index1.html"> Store </a>
+               <a href="about.html"> About </a>
+                 <a href=""> Contact Us </a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section class="contact">
+        <div class="content" style=" position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; margin-top: 100px;">
+            <h2><b></b>Contact Us</h2>
+          <p ><i >Pain itself is something to be avoided, but in certain circumstances, toil and pain can bring some benefit. Therefore, to avoid a greater harm, we sometimes accept smaller discomforts.</i></p>
+        </div>
+    
+        <div class="container" style=" position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto; margin-bottom: 100px;" >
+          <div class="contactInfo">
+            <div class="box">
+              <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>4671 Sugar Camp Road,<br>Owatonna, Minnesota,<br>55060</p>
+              </div>
+            </div>
+    
+            <div class="box">
+              <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>0912-321-2132</p>
+              </div>
+            </div>
+    
+            <div class="box">
+              <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>AvaiaBoutique@gmail.com</p>
+              </div>
+            </div>
+          </div>
+    
+          <div class="contactForm">
+            <form>
+              <h2>Send Message</h2>
+              <div class="inputBox">
+                <input type="text" name="fullname" required="required">
+                <span>Full Name</span>
+              </div>
+    
+              <div class="inputBox">
+                <input type="text" name="Email" required="required">
+                <span>Email</span>
+              </div>
+    
+              <div class="inputBox">
+                <textarea name="message" required="required"></textarea>
+                <span>Type your Message ...</span>
+              </div>
+    
+              <div class="inputBox">
+                <input type="submit" value="Send">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+           function hamburg(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+           }
+           function cancel(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+           }
+        </script>
+</body>
+</html>

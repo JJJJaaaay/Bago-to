@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+             <a href="Front.html"><img src="487376307_1207946857376054_1209642381831535983_n-modified.png" width="125px"/></a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li class="home"> <a href="Front.html">Home</a></li>
+              <li class="store"><a href="Index1.html">Store</a></li>
+              <li class="product"><a href="index.html">Product</a></li>
+              <li class="account"><a href="account.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="product details.html"> <img src="cart.png" height="30px" width="30px"> </a>
+          <img src="menu-removebg-preview.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1 >Welcome To AVAIA Shop! <br> </h1>
+            <h3>Aesthetic Fit For You!</h3>
+            <br/>
+            <a href="index.html" class="button"> Shop now! </a>
+          </div>
+          <div class="col-2">
+            <img src="Avalogo-removebg-preview.png" style="opacity: 0%;"/>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="small container">
+      <h2 class="categories">  </h2>
+      <div class="row">
+        <div class="col-3">
+          <video autoplay muted loop id="myVideo">
+            <source src="videoplayback.mp4" type="video/mp4">
+            <h1 style="background-color: white;"> Explore On Our Shop ! </h1>
+          </video>
+        </div>
+    </div>
+</div>
+    <div class="small-container">
+      <h2 class="title"> Popular Product </h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="tee.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4>Tee </h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+          </div>
+          <p>₱500</p>
+        </div>
+        <div class="col-4">
+          <img src="blue_pants_front-removebg-preview.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4>Pants (Blue) </h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+          </div>
+          <p>₱700</p>
+        </div>
+        <div class="col-4">
+          <img src="black_clogs-removebg-preview.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4>Suede Clogs (Black) </h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star-half-stroke" style="color: #0084ff"></i>
+          </div>
+          <p>₱1000</p>
+        </div>
+        <div class="col-4">
+          <img src="black_ilove-removebg-preview.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4>I Love Jesus (Black)</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star-half-stroke" style="color: #0084ff"></i>
+          </div>
+          <p>₱500</p>
+        </div>
+      </div>
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="avaia_polo_black-removebg-preview.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4>Polo-Shirt (Black)</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+          </div>
+          <p>₱750</p>
+        </div>
+        <div class="col-4">
+          <img src="bag-removebg-preview.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4>Bag</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+          </div>
+          <p>₱150</p>
+        </div>
+        <div class="col-4">
+          <img src="matcha_bennie.jpg-removebg-preview.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4>Beanie (Matcha)</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star-half-stroke" style="color: #0084ff"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+          </div>
+          <p>₱300</p>
+        </div>
+        <div class="col-4">
+          <img src="blue_ilove-removebg-preview.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4>I Love Jesus (Blue) </h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+          </div>
+          <p>₱500</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="Gray_bennie.jpg-removebg-preview.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4>Beanie (Gray) </h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+          </div>
+          <p>₱300</p>
+        </div>
+        <div class="col-4">
+          <img src="front_pants.jpg-removebg-preview.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4> Pants (Black) </h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star-half-stroke" style="color: #0084ff"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+          </div>
+          <p>₱700</p>
+        </div>
+        <div class="col-4">
+          <img src="violet_bennie-removebg-preview.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4> Beanie (Violet) </h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star-half-stroke" style="color: #0084ff"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+          </div>
+          <p>₱300</p>
+        </div>
+        <div class="col-4">
+          <img src="avaia_polo_violet-removebg-preview.png" style="filter: drop-shadow(0 10px 10px #0009);" />
+          <h4>Polo-Shirt (Violet) </h4>
+          <div class="rating">
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+            <i class="fa-regular fa-star" style="color: #0084ff;"></i>
+          </div>
+          <p>₱750</p>
+        </div>
+      </div>
+    </div>
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-8">
+            <img src="hoodie-removebg-preview.png" class="offer-img" style="filter: drop-shadow(0 10px 10px #0009); opacity: 100;" />
+          </div>
+          <div class="col-2">
+            <p>Limited time offer!</p>
+            <h1>Hoddie Avaia!</h1>
+            <small>Avaia's first-ever limited offer for this hoodie is here, and you won't want to miss it! It's incredibly comfortable and perfect for any occasion, giving you that cozy yet stylish look. The decision is yours, but act fast—this exclusive deal won't last long!</small>
+            <br>
+            <a href="" class="button"> Buy now! &#8594; </a>
+            </a>
+          </div>
+          </div>
+          </div>
+          </div>
+<!------testimonial----- -->
+
+
+
+
+<div class="testimonial">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-3" style="background: linear-gradient(#fcfcfc, #ffffff00);">
+        <i class="fa-solid fa-quote-left" style="font-size: 34px; color: #0084ff;"></i>
+        <p>"I am so happy with my purchase from AVAIA—this has truly been the best choice I could have made. The quality and style exceeded my expectations, and I will definitely be buying again. If you're looking for top-notch products, AVAIA is the place to go!"</p>
+        <div>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+      </div>
+      <img src="Balinas-removebg-preview.png">
+      <h3>Kobe Bryant</h3>
+      </div>
+      <div class="col-3" style="background: linear-gradient(#fcfcfc, #ffffff00);">
+        <i class="fa-solid fa-quote-left" style="font-size: 34px; color: #0084ff;"></i>
+        <p>"I couldn't be happier with my purchase from AVAIA—it's honestly the best choice I've made. The product is amazing, and I will definitely be buying again soon. If you're on the fence, go for it—you wont be disappointed!"</p>
+        <div>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+      </div>
+      <img src="vismonte.jpg.png">
+      <h3>Lebron James</h3>
+      </div>
+      <div class="col-3" style="background: linear-gradient(#fcfcfc, #ffffff00);">
+        <i class="fa-solid fa-quote-left" style="font-size: 34px; color: #0084ff;" ></i>
+        <p>"Choosing to shop at AVAIA was the best decision I made—I'm beyond satisfied with my purchase. The quality is outstanding, and I will definitely be coming back for more. If you are thinking about it, trust me, you wont regret it!"</p>
+        <div>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+        <i class="fa-solid fa-star" style="color: #0084ff;"></i>
+      </div>
+      <img src="lebron.jpg.webp">
+      <h3>Kai Sotto</h3>
+      </div>
+
+    </div>
+  </div>
+</div>
+<div class="brands">
+  <div class="small-container" style="background: linear-gradient(#fcfcfc, #ffffff00);">
+    <div class="row">
+      <div class="col-5">
+        <img src="adidas1-removebg-preview.png" style="color: red;">
+      </div>
+      <div class="col-5">
+        <img src="supreme-removebg-preview.png">
+      </div>
+      <div class="col-5">
+        <img src="louis.png">
+      </div>
+      <div class="col-5">
+        <img src="versace-removebg-preview.png">
+      </div>
+      <div class="col-5">
+        <img src="gucci1.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-about">
+      <h3>About Us</h3>
+      <p style="color: white;">We bring you the latest fashion <br> trends at affordable prices.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="Front.html">Home</a></li>
+        <li><a href="index.html">Products</a></li>
+        <li><a href="account.html">Account</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-newsletter">
+      <h3>Newsletter</h3>
+      <p style="color: white;">Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+      <input type="email" placeholder="Enter your email">
+      <button>Subscribe</button>
+    </div>
+
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/162iqdKSMR/" target="_blank" > <i class="fa-brands fa-facebook" style="color: rgb(255, 255, 255);" ></i> </a>
+        <a href="https://www.tiktok.com/@avaia_x?_t=ZS-8vNoU4vN6Cf&_r=1"><i class="fa-brands fa-tiktok" style="background: #1a1a1a; color: white;"></i></a>
+        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Favai_aboutique%3Figsh%3DNXljcnNtODJoYTlu%26fbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWVQ3SzVvUEQ0NE51RFRaegEehnZhpptqySpYKBGCVuzwTXuFoJCg6bcu8nvnHSlwlcdxcWkvll4V623TPpc_aem_FkVHZv4SMlrdTbiwqPSTug&h=AT3RXNLAOyctpMtAVoeEsJbGhnMH3PgpTTDzQXgNSw6cKWgbH98x9jbHwjxlweyvL9_jUmroBLpit3b50YLedDd7H2bKoChFYuGfcEr8BfB-V2bODlXAYCdTPxJZuZYdJmLW9g" target="_blank"><i class="fa-brands fa-instagram" style="background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d); color: white;"></i></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p style="color: white;">&copy; 2025 AVAIA Boutique. All rights reserved.</p>
+  </div>
+</footer>
+      </div>
+    </div>
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle(){
+        if (MenuItems.style.maxHeight = "0px")
+      {
+        MenuItems.style.maxHeight = "200px"
+      }
+      else 
+      {
+         MenuItems.style.maxHeight = "0px"
+      }
+      }
+    </script>
+  </body>
+</html>
