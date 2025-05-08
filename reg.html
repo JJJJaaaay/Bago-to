@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>The Fisher Valley College Clothes</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+            <span><a href="Front.html"> AVAIA </a> </span>
+        </div>
+        <div class="links">
+         <div class="link" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="400"> <a href="Front.html"> Home </a> </div>
+         <div class="link" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="600"> <a href="Store.html"> Store </a> </div>
+         <div class="link" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="800"> <a href="about.html"> About </a> </div>
+         <div class="link contact-btn"> <a href="contact.html" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="1200"> Contact Us </a> </div>
+        </div>
+        <i class="fa-solid fa-bars-staggered hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="Front.html"> Home </a>
+                <a href="Index1.html"> Store </a>
+               <a href="about.html"> About </a>
+                 <a href=""> Contact Us </a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section>
+            <div class="wrapper" style=" position: absolute; top: 0; bottom: 0; left: 0; right: 0; margin: auto;">
+                <form action="">
+                    <h2>Register</h2>
+                    <div class="input-group">
+                        <span class="icon">
+                            <ion-icon name="person"></ion-icon>
+                        </span>
+                        <input type="text" placeholder="Username" required>
+                    </div>
+                    <div class="input-group">
+                        <span class="icon">
+                            <ion-icon name="lock-closed"></ion-icon>
+                        </span>
+                        <input type="password" placeholder="Password" required>
+                    </div>
+                    <div class="forgot-pass">
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="sign-link">
+                        <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+            </section>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        </body>
+        </html>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+           function hamburg(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+           }
+           function cancel(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+           }
+        </script>
+</body>
+</html>
